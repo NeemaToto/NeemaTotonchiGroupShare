@@ -15,6 +15,6 @@ var student = {
     id: "A001234"
 }
 
-var sentence = `The new emplyee ${firstName} ${lastName} is ${age} years old. The employee ID is ${id}.`
+var sentence = `The new emplyee ${student.firstName} ${student.lastName} is ${student.age} years old. The employee ID is ${student.id}.`
 
 console.log(sentence);
